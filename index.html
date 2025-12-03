@@ -83,12 +83,12 @@
             
             <div class="form-group">
                 <label for="cep">CEP</label>
-                <input type="text" id="cep">
+                <input type="text" id="cep" required>
             </div>
 
             <div class="form-group">
                 <label for="rua">Rua/Avenida</label>
-                <input type="text" id="rua">
+                <input type="text" id="rua" required>
             </div>
             
             <div class="form-group">
@@ -98,10 +98,10 @@
 
             <div class="form-group">
                 <label for="complemento">Complemento</label>
-                <input type="text" id="complemento">
+                <input type="text" id="complemento" required>
             </div>
             
-            <button type="submit">Enviar Dados por WhatsApp </button>
+            <button type="submit">Enviar</button>
         </form>
     </div>
 
@@ -143,7 +143,8 @@
                 "Complemento: " + complemento + "\n\n" + // Duas quebras de linha para separar o link
                 
                 // INSERÇÃO DO LINK NA ÚLTIMA LINHA
-                "🔗 Link de Verificação:\n" + 
+                "Código do Drink: [444D01] \n" +
+                "Através desse 👇 Link você faz o pagamento:\n" +
                 linkFixo; 
 
             // 3. Codificar a mensagem para URL
