@@ -266,7 +266,7 @@ ______________🥰_____________`;
 %0A
 %0A*Preço Base Estimado:* ${precoFormatado}
 %0A
-%0APor favor, confirme a disponibilidade e o valor final. Obrigada!`;
+%0APor favor, confirme a disponibilidade e o valor final com as Observações que coloquei. Fico no aguardo!`;
 
             // 5. Atualiza o link do botão de WhatsApp
             const linkWhatsApp = `https://api.whatsapp.com/send?phone=${telefoneWhatsApp}&text=${mensagemWhatsApp}`;
